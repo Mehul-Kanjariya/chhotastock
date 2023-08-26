@@ -1,0 +1,59 @@
+.dropdown{
+    height:455px;
+    width:70%;
+    margin: auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    display: flex;
+    gap:30px;
+    padding: 30px;
+    background-color: white;
+}
+
+/* .dropdown>div{
+    border: 1px solid black;
+} */
+
+.dropdown>div:nth-child(1){
+    width:68%;
+}
+
+.dropdown>div>h2{
+    text-align: left;
+    /* border: 1px solid black; */
+    /* margin-top: 5; */
+    margin-left: 5%;
+    padding: 0;
+    color:rgb(29, 163, 123);
+    font-weight: 600;
+}
+
+.Investment{
+    /* border: 1px solid black; */
+    margin-left: 10%;
+}
+
+.Investment h2,.Investment p{
+    /* border: 1px solid black; */
+    text-align: left;
+    font-weight: 500;
+    margin:0;
+    padding:0;
+}
+
+.Investment p{
+    font-size: 110%;
+    font-weight: 400;
+    color: rgb(68, 67, 67);
+    width:fit-content;
+}
+
+.Investment>div{
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+
+.dropdown>div>div{
+    display: grid;
+    gap: 30px;
+}

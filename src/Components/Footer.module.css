@@ -1,0 +1,22 @@
+.Footer{
+    margin-top: 100px;
+    background-color: #171e27;
+    color: white;
+    border: 1px solid #171e27;
+}
+
+.container{
+    width: 85%;
+    margin: auto;
+ 
+}
+
+.container>div{
+    margin-top: 50px;
+}
+
+.contactus{
+    display: flex;
+    gap:170px;
+    text-align: left;
+}
